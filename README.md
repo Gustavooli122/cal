@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧮 Calculadora Next.js
 
-## Getting Started
+Uma calculadora desenvolvida com **Next.js**, **React** e **Tailwind CSS**, criada para praticar gerenciamento de estado, lógica de operações matemáticas e construção de interfaces interativas.
 
-First, run the development server:
+## 📌 Sobre o projeto
+
+Esta aplicação permite realizar operações matemáticas básicas por meio de uma interface simples e responsiva.
+
+O projeto foi desenvolvido como parte do meu portfólio para demonstrar conhecimentos em:
+
+- React e componentes funcionais
+- Hooks, especialmente `useState`
+- Manipulação de eventos
+- Lógica condicional
+- Operações matemáticas
+- Estilização com Tailwind CSS
+- Desenvolvimento com Next.js
+
+## 🚀 Funcionalidades
+
+- Adição (`+`)
+- Subtração (`-`)
+- Multiplicação (`x`)
+- Divisão (`/`)
+- Números decimais
+- Botão para apagar o último caractere (`DEL`)
+- Botão para limpar a calculadora (`RESET`)
+- Cálculo do resultado com o botão (`=`)
+- Substituição de operadores consecutivos
+- Cálculos intermediários ao selecionar novos operadores
+- Tratamento de divisão por zero com a mensagem `Erro`
+
+## 🛠️ Tecnologias utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- JavaScript
+- HTML
+- CSS
+
+## 📂 Estrutura principal
+
+O componente principal da calculadora contém:
+
+- **`startValue()`**: identifica qual botão foi pressionado e direciona a ação.
+- **`displayCalc()`**: controla a expressão exibida no visor.
+- **`addNumero()`**: adiciona números ao valor atual.
+- **`addOperador()`**: gerencia os operadores e realiza cálculos intermediários.
+- **`calcular()`**: executa a operação final.
+- **`colors()`**: define estilos específicos para determinados botões.
+
+## 🧠 Conceitos praticados
+
+Durante o desenvolvimento, foram praticados conceitos importantes do React e do JavaScript, como:
+
+- Gerenciamento de estado com `useState`
+- Atualização de estados usando funções de callback
+- Uso de `parseFloat()` para conversão de valores
+- Verificação de caracteres com `includes()` e `slice()`
+- Renderização de listas com `.map()`
+- Uso de funções para separar responsabilidades
+- Controle de operações matemáticas com `switch`
+- Aplicação dinâmica de classes CSS
+
+## ⚙️ Como executar o projeto
+
+### 1. Clone o repositório
+
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
+
+### 2. Acesse a pasta do projeto
+
+```bash
+cd nome-do-projeto
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Inicie o servidor de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Abra no navegador
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Acesse:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## 📸 Demonstração
 
-To learn more about Next.js, take a look at the following resources:
+Adicione aqui uma imagem ou GIF mostrando a calculadora funcionando.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔗 Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Demo online:** ADICIONE_O_LINK_DA_DEMO
+- **Repositório:** ADICIONE_O_LINK_DO_GITHUB
 
-## Deploy on Vercel
+## 📚 Melhorias futuras
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Adicionar suporte ao teclado do computador
+- Melhorar o tratamento de erros
+- Adicionar histórico de operações
+- Implementar um botão para alternar sinais positivos e negativos
+- Melhorar a responsividade para diferentes tamanhos de tela
+- Adicionar testes para validar as operações
+- Aprimorar a acessibilidade dos botões e do campo de exibição
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Autor
+
+Desenvolvido por **Gustavo Oliveira** como projeto de prática e composição de portfólio em desenvolvimento front-end.
