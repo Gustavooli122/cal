@@ -99,12 +99,10 @@ http://localhost:3000
 
 ## 📸 Demonstração
 
-Adicione aqui uma imagem ou GIF mostrando a calculadora funcionando.
-
 ## 🔗 Links
 
-- **Demo online:** ADICIONE_O_LINK_DA_DEMO
-- **Repositório:** ADICIONE_O_LINK_DO_GITHUB
+- **Demo online:** [ADICIONE_O_LINK_DA_DEMO](https://cal-ruddy-tau.vercel.app/)
+
 
 ## 📚 Melhorias futuras
 
