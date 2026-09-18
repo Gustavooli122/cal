@@ -66,7 +66,7 @@ Durante o desenvolvimento, foram praticados conceitos importantes do React e do 
 
 ## 🔗 Links
 
-- **Demo online:** [ADICIONE_O_LINK_DA_DEMO](https://cal-ruddy-tau.vercel.app/)
+- **Demo online:** [Ver o projeto](https://cal-ruddy-tau.vercel.app/)
 
 
 ## 📚 Melhorias futuras
