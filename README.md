@@ -63,41 +63,6 @@ Durante o desenvolvimento, foram praticados conceitos importantes do React e do 
 - Controle de operações matemáticas com `switch`
 - Aplicação dinâmica de classes CSS
 
-## ⚙️ Como executar o projeto
-
-### 1. Clone o repositório
-
-```bash
-git clone URL_DO_SEU_REPOSITORIO
-```
-
-### 2. Acesse a pasta do projeto
-
-```bash
-cd nome-do-projeto
-```
-
-### 3. Instale as dependências
-
-```bash
-npm install
-```
-
-### 4. Inicie o servidor de desenvolvimento
-
-```bash
-npm run dev
-```
-
-### 5. Abra no navegador
-
-Acesse:
-
-```text
-http://localhost:3000
-```
-
-## 📸 Demonstração
 
 ## 🔗 Links
 
